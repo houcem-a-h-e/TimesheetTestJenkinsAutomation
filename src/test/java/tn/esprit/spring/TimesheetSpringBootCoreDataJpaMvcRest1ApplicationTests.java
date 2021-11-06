@@ -62,15 +62,6 @@ public class TimesheetSpringBootCoreDataJpaMvcRest1ApplicationTests {
 	private static final Logger l = LogManager.getLogger(TimesheetSpringBootCoreDataJpaMvcRest1ApplicationTests.class);
 
 	
-	/*@Test
-	public void ajouterMission() {
-		Mission mission= new Mission("externe","duréee de 3 mois");
-		
-		int miss=iTimesheetService.ajouterMission(mission);
-		 assertThat(miss).isEqualTo(7);
-		
-	}*/
-	
 	@Test
 	public void testAjouterTimesheet() {
 		Employe emp=new Employe("Issaoui", "Wissem","wissem@gmail.com",true,Role.ADMINISTRATEUR);

@@ -73,3 +73,28 @@
 2021-11-06 13:06:01.257  INFO 15660 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2021-11-06 13:06:01.263  INFO 15660 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2021-11-06 13:06:01.324  INFO 15660 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-06 19:18:37.850  INFO 8448 --- [main] gBootCoreDataJpaMvcRest1ApplicationTests : Starting TimesheetSpringBootCoreDataJpaMvcRest1ApplicationTests on DESKTOP-P8RQIG1 with PID 8448 (started by HP in C:\Users\HP\Desktop\repotestjenkins\TimesheetProjectJenkinsTest)
+2021-11-06 19:18:37.896  INFO 8448 --- [main] gBootCoreDataJpaMvcRest1ApplicationTests : No active profile set, falling back to default profiles: default
+2021-11-06 19:18:43.545  INFO 8448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-06 19:18:44.239  INFO 8448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 626ms. Found 6 repository interfaces.
+2021-11-06 19:18:48.251  INFO 8448 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c9e9ed97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-06 19:18:49.292  INFO 8448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-06 19:18:49.939  INFO 8448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-06 19:18:50.274  INFO 8448 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-06 19:18:50.732  INFO 8448 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-06 19:18:50.735  INFO 8448 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-06 19:18:50.992  INFO 8448 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-06 19:18:53.662  INFO 8448 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-06 19:19:02.105  INFO 8448 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-06 19:19:12.182  INFO 8448 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-06 19:19:12.962  WARN 8448 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-06 19:19:17.720  INFO 8448 --- [main] gBootCoreDataJpaMvcRest1ApplicationTests : Started TimesheetSpringBootCoreDataJpaMvcRest1ApplicationTests in 40.568 seconds (JVM running for 42.664)
+2021-11-06 19:19:18.012  INFO 8448 --- [main] gBootCoreDataJpaMvcRest1ApplicationTests : test add contrat success
+2021-11-06 19:19:18.163  INFO 8448 --- [main] gBootCoreDataJpaMvcRest1ApplicationTests : affichage ts: tn.esprit.spring.entities.Timesheet@63814bbe
+2021-11-06 19:19:18.166  INFO 8448 --- [main] gBootCoreDataJpaMvcRest1ApplicationTests : timesheet ajouté avec succès
+2021-11-06 19:19:18.735  INFO 8448 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-06 19:19:18.738  INFO 8448 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-06 19:19:18.750  INFO 8448 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-06 19:19:18.777  INFO 8448 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
